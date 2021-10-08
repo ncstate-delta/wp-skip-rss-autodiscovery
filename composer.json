@@ -1,0 +1,13 @@
+{
+	"name": "ncstate-delta/wp-skip-rss-autodiscovery",
+	"description": "",
+	"homepage": "https://github.com/ncstate-delta/wp-skip-rss-autodiscovery",
+	"license": "GPL-2.0-or-later",
+	"support": {
+		"issues": "https://github.com/ncstate-delta/wp-skip-rss-autodiscovery/issues"
+	},
+	"require": {},
+	"require-dev" : {
+		"wp-coding-standards/wpcs": "^2.3.0"
+	}
+}
