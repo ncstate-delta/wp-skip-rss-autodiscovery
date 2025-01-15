@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         # Fetch all history so we can diff.
         fetch-depth: 0
@@ -21,12 +21,12 @@ jobs:
     - name: Set up PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: '7.4'
+        php-version: '8.1'
         coverage: none
         tools: cs2pr
 
     - name: Install Composer dependencies
-      uses: ramsey/composer-install@v1
+      uses: ramsey/composer-install@v3
 
     - name: Run PHPCS on changed files
       run: |
